@@ -1,3 +1,15 @@
+=begin
+def largest_hash_key(hash)
+smallest_key = ""
+
+  hash.each do |key, value|
+  if(value == hash.values.min)
+   smallest_key = key
+ end
+ end
+ smallest_key
+end
+=end
 def key_for_min_value(name_hash)
   
   if(name_hash.empty?)
